@@ -1,0 +1,19 @@
+harga = 5000
+durasi = int(input("Masukkan durasi parkir (dalam jam): "))
+uang = int(input("Masukkan uang: "))
+
+total_harga = durasi * harga
+kembalian = uang - total_harga
+
+print("Total harga: Rp", total_harga)
+
+if kembalian < 0:
+    print("Uang tidak cukup! Silakan tambahkan uang lagi.")
+else:
+    print("Terima kasih telah membayar parkir!")
+
+print("Kembalian: Rp", kembalian)
+
+# Menjalankan perintah selesai program
+input("\nTekan Enter untuk keluar program...")
+
