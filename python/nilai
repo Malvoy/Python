@@ -1,12 +1,14 @@
-grade = int(input("Masukkan Nilai: "))
-if grade >= 90:
-    print("Grade A")
-elif grade >= 80:
-    print("Grade B")
-elif grade >= 70:
-    print("Grade C")
-elif grade >= 60:
-    print("Grade D")
+nilai = int(input("Masukkan Nilai: "))
+    
+if nilai >= 90:
+        print("Nilai A")
+elif nilai >= 80:
+        print("Nilai B")
+elif nilai >= 70:
+        print("Nilai C")
+elif nilai >= 60:
+        print("Nilai D")
 else:
-    print("Grade E")
+        print("Nilai E")
+
 
