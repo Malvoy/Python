@@ -2,7 +2,7 @@ harga = 5000
 durasi = int(input("Masukkan durasi parkir (dalam jam): "))
 uang = int(input("Masukkan uang: "))
 
-total_harga = durasi * harga
+total_harga = harga + (1000*durasi) 
 kembalian = uang - total_harga
 
 print("Total harga: Rp", total_harga)
